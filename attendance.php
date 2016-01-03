@@ -10,8 +10,8 @@ $last_day_in_month = strtotime($last_day_in_month_text);
 echo "<center><h1>بيانات عشوائية لأوقات عشوائية منطقية تحاكي حضور موظف خلال عام كامل</h1></center>";
 echo "<center><h1>Random Logical Simulation for an Employee's Attendance in SQL Data</h1></center>";
 
- echo "<p>First Day:($first_day_in_month_text): UnixTime($first_day_in_month)</p>";
- echo "<p>Last Day:($last_day_in_month_text): UnixTime($last_day_in_month)</p>";
+echo "<p>First Day:($first_day_in_month_text): UnixTime($first_day_in_month)</p>";
+echo "<p>Last Day:($last_day_in_month_text): UnixTime($last_day_in_month)</p>";
 
 echo "<hr/>";
 
@@ -22,7 +22,7 @@ $day_works = array(
 	"Tuesday",
 	"Wednesday",
 	"Thursday",
-	/*"Friday",*/
+	/*"Friday",*/ /*Pray Time in Muslim's World*/
 );
 
 $sql_bone = "([date], [eid], [ename], [ent], [ex])";
